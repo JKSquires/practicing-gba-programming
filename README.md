@@ -17,8 +17,8 @@ goldroad.exe <file/path>.asm
 
 ## Program Descriptions
 
-Name | Screenshot (if applicable) | Description
----- | -------------------------- | -----------
-Pixels | ![pixels screenshot](pixels/screenshot.png) | This program displays a pixel of a different color on the corners of the screen. (They may be hard to see in the screenshot, but they're there!)
-Line | ![line screenshot](line/screenshot.png) | This program displays any arbitrary line specified in the code. It uses my own implementation of Bresenham's line algorithm and can draw lines in all 8 octants.
-VBlank Test | ![vblank_test screenshot](vblank_test/screenshot.png) | This program displays a line that extends and contracts at the top of the screen that only gets processed once per VBlank.
+Name and Link | Screenshot (if applicable) | Description
+------------- | -------------------------- | -----------
+[Pixels](pixels) | ![pixels screenshot](pixels/screenshot.png) | This program displays a pixel of a different color on the corners of the screen. (They may be hard to see in the screenshot, but they're there!)
+[Line](line) | ![line screenshot](line/screenshot.png) | This program displays any arbitrary line specified in the code. It uses my own implementation of Bresenham's line algorithm and can draw lines in all 8 octants.
+[VBlank Test](vblank_test) | ![vblank_test screenshot](vblank_test/screenshot.png) | This program displays a line that extends and contracts at the top of the screen that only gets processed once per VBlank.
