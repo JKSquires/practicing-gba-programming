@@ -17,7 +17,7 @@ Example:
 ```sh
 goldroad.exe line/line.asm
 ```
-**Note: you must be in the same directory as the header file when building**
+**Note: you must be in the same directory as the header file ([`header.asm`](header.asm)) when building.**
 
 ---
 
