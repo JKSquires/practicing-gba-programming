@@ -11,8 +11,13 @@ If you want to run these programs on an emulator, I'd recommend [No$gba](https:/
 
 Assemble a program with the [Goldroad 1.7](https://www.gbadev.org/tools.php?showinfo=192) assembler:
 ```sh
-goldroad.exe <file/path>.asm
+goldroad.exe <program/program>.asm
 ```
+Example:
+```sh
+goldroad.exe line/line.asm
+```
+**Note: you must be in the same directory as the header file when building**
 
 ---
 
