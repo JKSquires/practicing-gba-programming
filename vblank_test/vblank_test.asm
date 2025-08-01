@@ -1,5 +1,7 @@
 b start
 
+@include header.asm
+
 white:
 @dcw 0x7FFF
 
