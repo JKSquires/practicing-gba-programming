@@ -1,5 +1,7 @@
 b start
 
+@include header.asm
+
 start:
 
 mov r0,0x04000000
