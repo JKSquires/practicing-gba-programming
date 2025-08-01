@@ -5,6 +5,8 @@
 
 b start
 
+@include header.asm
+
 start:
 mov r0,0x04000000
 ldr r1,=0x0403
