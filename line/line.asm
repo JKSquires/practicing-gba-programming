@@ -55,7 +55,7 @@ mov r3,r4
 mov r4,r0
 skipSwap:
 
-ldr r0,=0x07FFF
+ldr r0,=0x7FFF
 
 ; see Bresenham's line algorithm
 sub r5,r2,r1
