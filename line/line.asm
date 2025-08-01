@@ -31,7 +31,6 @@ sublt r9,r7,r6
 mov r10,0
 
 cmp r8,r9
-movle r5,r8
 bgt xy
 mov r10,1
 
