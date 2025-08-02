@@ -17,21 +17,20 @@ ldr r2,=X2
 ldr r3,=Y1
 ldr r4,=Y2
 
-sub r5,r2,r1
-sub r6,r4,r3
-
 mov r7,0
 
+sub r5,r2,r1
 cmp r5,r7
-sublt r8,r7,r5
+sublt r5,r7,r5
 
+sub r6,r4,r3
 cmp r6,r7
-sublt r9,r7,r6
+sublt r6,r7,r6
 
 mov r10,0
 
-cmp r8,r9
-bgt xy
+cmp r5,r6
+bge xy
 mov r10,1
 
 mov r0,r1
@@ -54,15 +53,16 @@ mov r3,r4
 mov r4,r0
 skipSwap:
 
-ldr r0,=0x7FFF
+ldr r0,=0x07FFF
 
 ; see Bresenham's line algorithm
 sub r5,r2,r1
 sub r6,r4,r3
 add r6,r6,r6
 
+mov r7,0
 mov r4,1
-cmp r6,r7 ; r7 = 0
+cmp r6,r7
 sublt r4,r4,2
 sublt r6,r7,r6
 
@@ -75,8 +75,8 @@ mov r8,0xF0 ; 240
 
 lineLoop:
 cmp r10,0
-mule r9,r3,r8
-adde r9,r9,r1
+muleq r9,r3,r8
+addeq r9,r9,r1
 mulne r9,r1,r8
 addne r9,r9,r3
 mov r9,r9 lsl 1
