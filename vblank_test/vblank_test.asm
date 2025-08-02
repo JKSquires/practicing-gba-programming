@@ -32,7 +32,7 @@ bne waitVBlankStart
 
 cmp r3,0
 moveq r4,2
-ldreq r2,[white] ; I'd prefer to write ldrheq, but goldroad doesn't seem to support that. ldreq works, though.
+ldreqh r2,[white] ; ldrheq
 
 orr r5,r1,r3
 strh r2,[r5]
