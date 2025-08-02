@@ -8,8 +8,8 @@ b start
 @include header.asm
 
 start:
-mov r0,0x04000000
-ldr r1,=0x0403
+mov r0,0x4000000
+ldr r1,=0x403
 strh r1,[r0]
 
 ldr r1,=X1
@@ -80,7 +80,7 @@ addeq r9,r9,r1
 mulne r9,r1,r8
 addne r9,r9,r3
 mov r9,r9 lsl 1
-orr r9,r9,0x06000000
+orr r9,r9,0x6000000
 strh r0,[r9]
 
 cmp r7,0
