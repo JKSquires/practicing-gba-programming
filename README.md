@@ -26,7 +26,7 @@ goldroad.exe line/line.asm
 Name and Link | Screenshot (if applicable) | Description
 ------------- | -------------------------- | -----------
 [Pixels](pixels) | ![pixels screenshot](pixels/screenshot.png) | This program displays a pixel of a different color on the corners of the screen. (They may be hard to see in the screenshot, but they're there!)
-[Line](line) | ![line screenshot](line/screenshot.png) | This program displays any arbitrary line specified in the code. It uses my own implementation of Bresenham's line algorithm and can draw lines in 6 of the 8 octants.
+[Line](line) | ![line screenshot](line/screenshot.png) | This program displays arbitrary lines specified in the code.
 [VBlank Test](vblank_test) | ![vblank_test screenshot](vblank_test/screenshot.png) | This program displays a line that extends and contracts at the top of the screen that only gets processed once per VBlank.
 [DMA](dma) | ![dma screenshot](dma/screenshot.png) | This program uses DMA transfers to fill the screen with red-orange pixels. (I take the screenshots in No$gba, and it shifts the color slightly).
 [Move Pixel](move_pixel) | ![move_pixel screenshot](move_pixel/screenshot.png) | This program reads the d-pad inputs to let the player move a pixel around. Because VRAM is not cleared, previous locations persist, and it looks like a drawing!
