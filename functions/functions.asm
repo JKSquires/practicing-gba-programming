@@ -11,7 +11,7 @@ mov r4,r4,lsl 1
 orr r3,r4,0x6000000
 strh r2,[r3]
 
-mov r15,r14
+mov r15,r14 ; set the program counter (r15) to the value in the link register (r14)
 
 start:
 mov r0,0x4000000
