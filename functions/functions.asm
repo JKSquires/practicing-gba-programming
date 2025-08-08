@@ -2,7 +2,9 @@ b start
 
 @include header.asm
 
-drawPixel: ; r0: x-coord; r1: y-coord; r2: color. Uses registers r3-r4
+drawPixel: ; r0: x-coord; r1: y-coord; r2: color.
+stmfd r13!,{r3-r4} ; a.k.a. push {r3-r4} (goldroad doesn't really fully support push and pop instructions)
+
 mov r3,0xF0
 mul r4,r1,r3
 add r4,r4,r0
@@ -11,7 +13,8 @@ mov r4,r4,lsl 1
 orr r3,r4,0x6000000
 strh r2,[r3]
 
-mov r15,r14 ; set the program counter (r15) to the value in the link register (r14)
+ldmfd r13!,{r3-r4} ; a.k.a. pop {r3-r4}
+bx r14
 
 start:
 mov r0,0x4000000
