@@ -41,7 +41,7 @@ mov r1,0x5000000
 orr r1,r1,0x200
 str r1,[r0,0xD8]
 
-ldr r1,=(%10000000000 << 21 | 10) ; 10 16-bit transfers: 1 per palette color
+ldr r1,=(%10000000000 << 21 | 8) ; 8 16-bit transfers: 1 per palette color
 str r1,[r0,0xDC]
 
 ; DMA transfer obj to 0x6010000 for bg modes 0-2 (or 0x6014000 for bg modes 3-5)
