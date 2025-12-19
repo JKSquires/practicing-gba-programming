@@ -34,3 +34,5 @@ Name and Link | Screenshot (if applicable) | Description
 [Functions](functions) | ![functions screenshot](functions/screenshot.png) | This program uses a `drawPixel` function writen in the program to draw pixels of a specified color in a specified x and y coordinate on the screen. This example draws a red pixel at (10,20) and a green pixel at (20,10).
 [Pixel Bounce](pixel_bounce) | ![pixel_bounce screenshot](pixel_bounce/screenshot.png) | This program draws a pixel that moves around the screen and bounces off the edges. (The screenshot is a static image of one of the frames.)
 [Sprites](sprites) | ![sprites screenshot](sprites/screenshot.png) | This program renders a sprite (object) on the screen.
+[Sine Wave](sine_wave) | ![sine_wave screenshot](sine_wave/screenshot.png) | This program uses a function that I wrote (I guess it technically uses two) to approximate sine in order to generate a sine wave. This program also demonstrates recursion in the `sineBuilder` function.
+
