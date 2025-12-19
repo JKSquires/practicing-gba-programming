@@ -33,7 +33,6 @@ mov r0,r1
 bl sinePart
 
 cmp r2,1
-;mvneq r1,r0
 moveq r0,0
 subeq r1,r0,r1
 
