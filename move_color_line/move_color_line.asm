@@ -39,11 +39,11 @@ mov r8,0x4000000
 waitVBlankEnd:
 ldrh r1,[r8,0x4]
 tst r1,1
-beq waitVBlankEnd
+bne waitVBlankEnd
 waitVBlankStart:
 ldrh r1,[r8,0x4]
 tst r1,1
-bne waitVBlankStart
+beq waitVBlankStart
 
 ldrb r1,[r0,0]
 ldrb r2,[r0,1]

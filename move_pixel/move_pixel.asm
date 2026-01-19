@@ -21,11 +21,11 @@ loop:
 waitVBlankEnd:
 ldrh r7,[r0,0x4]
 tst r7,1
-beq waitVBlankEnd
+bne waitVBlankEnd
 waitVBlankStart:
 ldrh r7,[r0,0x4]
 tst r7,1
-bne waitVBlankStart
+beq waitVBlankStart
 
 ldrb r7,[r0,0x130]
 

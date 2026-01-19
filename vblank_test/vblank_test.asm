@@ -24,11 +24,11 @@ loop:
 waitVBlankEnd:
 ldrh r5,[r0]
 tst r5,1
-beq waitVBlankEnd
+bne waitVBlankEnd
 waitVBlankStart:
 ldrh r5,[r0]
 tst r5,1
-bne waitVBlankStart
+beq waitVBlankStart
 
 cmp r3,0
 moveq r4,2

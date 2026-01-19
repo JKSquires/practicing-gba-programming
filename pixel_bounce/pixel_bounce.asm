@@ -21,11 +21,11 @@ loop:
 waitVBlankEnd:
 ldrh r5,[r0,0x4]
 tst r5,1
-beq waitVBlankEnd
+bne waitVBlankEnd
 waitVBlankStart:
 ldrh r5,[r0,0x4]
 tst r5,1
-bne waitVBlankStart
+beq waitVBlankStart
 
 add r5,r1,r2
 add r5,r5,0x6000000
