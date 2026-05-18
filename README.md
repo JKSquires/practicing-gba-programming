@@ -35,4 +35,8 @@ Name and Link | Screenshot (if applicable) | Description
 [Pixel Bounce](pixel_bounce) | ![pixel_bounce screenshot](pixel_bounce/screenshot.png) | This program draws a pixel that moves around the screen and bounces off the edges. (The screenshot is a static image of one of the frames.)
 [Sprites](sprites) | ![sprites screenshot](sprites/screenshot.png) | This program renders a sprite (object) on the screen.
 [Sine Wave](sine_wave) | ![sine_wave screenshot](sine_wave/screenshot.png) | This program uses a function that I wrote (I guess it technically uses two) to approximate sine in order to generate a sine wave. This program also demonstrates recursion in the `sineBuilder` function.
+[Frog Sprite Example](frog_sprite_example) | ![frog_sprite_example_screenshot](frog_sprite_example/screenshot.png) | This program was built to demonstrate how sprites work on the GBA for my website.
+[1D Sprite Car Example](1d_sprite_car_example) | ![1d_sprite_car_example_screenshot](1d_sprite_car_example/screenshot.png) | This program was built to demonstrate 1-dimentional sprite layouts in VRAM for my website. The car sprite bounces back and forth on the bottom of the screen.
+[2D Sprite Car Example](2d_sprite_car_example) | ![2d_sprite_car_example_screenshot](2d_sprite_car_example/screenshot.png) | Same as the 1D sprite car example, except using a 2-dimentional sprite layout in VRAM.
+[Sprite Rotation and Scaling Example](sprite_rotation_scaling_example) | ![sprite_rotation_scaling_example_screenshot](sprite_rotation_scaling_example/screenshot.png) | This program was built to demonstrate affine transformattions on sprites for my website.
 
