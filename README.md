@@ -39,4 +39,5 @@ Name and Link | Screenshot (if applicable) | Description
 [1D Sprite Car Example](1d_sprite_car_example) | ![1d_sprite_car_example_screenshot](1d_sprite_car_example/screenshot.png) | This program was built to demonstrate 1-dimentional sprite layouts in VRAM for my website. The car sprite bounces back and forth on the bottom of the screen.
 [2D Sprite Car Example](2d_sprite_car_example) | ![2d_sprite_car_example_screenshot](2d_sprite_car_example/screenshot.png) | Same as the 1D sprite car example, except using a 2-dimentional sprite layout in VRAM.
 [Sprite Rotation and Scaling Example](sprite_rotation_scaling_example) | ![sprite_rotation_scaling_example_screenshot](sprite_rotation_scaling_example/screenshot.png) | This program was built to demonstrate affine transformattions on sprites for my website.
+[Backgrounds](backgrounds) | ![backgrounds_screenshot](backgrounds/screenshot.png) | This program loads a palette, loads a tileset, and creates a tilemap to then display on the screen.
 
