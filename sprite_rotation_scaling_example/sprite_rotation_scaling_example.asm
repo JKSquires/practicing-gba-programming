@@ -61,16 +61,16 @@ mov r1,%0000000000000001 ; OBJ 0 attribute 2: start sprite at character 1, use c
 strh r1,[r0,0x4] ; OBJ 0 attribute 2 (0x7000004)
 
 ; set up the transformation matrix
-mov r1,%0000000010010011 ; 0.5cos(-pi/6) = ~111/256
+mov r1,%0000000010010011 ; (2/3) * cos(-pi/6) = ~147/256
 strh r1,[r0,0x6] ; M0A
 
-mvn r1,%0000000001010101 ; -0.5sin(-pi/6) = -64/256
+mvn r1,%0000000001010100 ; (2/3) * sin(-pi/6) = ~-85/256
 strh r1,[r0,0x0E] ; M0B
 
-mov r1,%0000000001010101 ; 0.5sin(-pi/6) = 64/256
+mov r1,%0000000001010101 ; (2/3) * -sin(-pi/6) = ~85/256
 strh r1,[r0,0x16] ; M0C
 
-mov r1,%0000000010010011 ; 0.5cos(-pi/6) = ~111/256
+mov r1,%0000000010010011 ; (2/3) * cos(-pi/6) = ~147/256
 strh r1,[r0,0x1E] ; M0D
 
 ; infinite loop
