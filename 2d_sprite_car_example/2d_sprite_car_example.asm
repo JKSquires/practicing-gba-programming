@@ -89,7 +89,7 @@ start:
 mov r0,0x4000000 ; I/O and registers
 
 ; set up display
-mov r1,%1010000000000 ; use background mode 0, use 2-dimensional character mapping, turn on background 2, and enable OBJ window
+mov r1,%1010000000000 ; use background mode 0, use 2-dimensional character mapping, turn on background 2, and enable OBJ screen
 strh r1,[r0] ; display control regiser (a.k.a. DISPCNT)
 
 ; transfer palette data to OBJ palette RAM
